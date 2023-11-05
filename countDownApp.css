@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, rgb(234, 212, 212), rgb(25, 161, 219));
+}
+.countdown{
+display: grid;
+justify-items: center;
+align-items: center;
+margin-top: 200px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 20px 10px;
+    background-color:rgb(25, 161, 219) ;
+    width: 200px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+.startCountdown{
+    color: aliceblue;
+    background-color:rgb(19, 103, 138) ;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.startCountdown:hover{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+    color: rgb(25, 161, 219);
+    background-color: aliceblue;
+}
+#countdownTimer{
+    display: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
